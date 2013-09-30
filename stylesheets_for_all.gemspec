@@ -11,6 +11,7 @@ Gem::Specification.new do |gem|
   gem.description   = %q{Enable stylesheets for all media (screen,print, etc.) by default.}
   gem.summary       = %q{Enable stylesheets for all media (screen,print, etc.) by default by defaulting to media=all}
   gem.homepage      = "https://github.com/phallstrom/stylesheets_for_all"
+  gem.license       = "MIT"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
